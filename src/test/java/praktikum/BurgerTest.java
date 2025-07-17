@@ -3,6 +3,9 @@ package praktikum;
 import org.junit.Before;
 import org.junit.Test;
 
+import static junit.framework.TestCase.assertFalse;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 

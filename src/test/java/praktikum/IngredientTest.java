@@ -1,5 +1,6 @@
 package praktikum;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -10,7 +11,7 @@ public class IngredientTest {
     @Test
     public void getNameReturnsCorrectName() {
         Ingredient ingredient = new Ingredient(IngredientType.SAUCE, "Souse", 50f);
-        assertEquals("Ketchup", ingredient.getName());
+        assertEquals("Souse", ingredient.getName());
     }
 
     @Test
